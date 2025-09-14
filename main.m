@@ -54,7 +54,7 @@ for i = 10:10
         % 2 - PseudoCorrelation Map
         % 3 - Phase Derivative Variance Map
         % 4 - Maximum Phase Variance Map
-        % 5 - Amplitude Variance Map
+        % 5 - Ampherence Map
         
         numberofQualAlgo = j;
         [MAPtype, qualmap, average_val] = QualMapGen(numberofQualAlgo, phaseimage, corrimage, maskimage, fid);
